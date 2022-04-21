@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  height: 100vh;
+  cursor: none;
+}
+
+canvas {
+  border: 5px solid #3f3f3f;
+  border-radius: 30px;
+  float: left;
+}
+
+#table {
+  width: 1700px;
+  height: 820px;
+  float: left;
+  text-align: center;
+}
+
+#up {
+  width: 1700px;
+  height: 160px;
+}
+
+#scoreTable {
+  background-color: #000000;
+  width: 290px;
+  height: 550px;
+  color: #6f6f6f;
+  font-size: 40px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 5px solid #3f3f3f;
+  border-radius: 30px;
+  border-right: 0px;
+  float: left;
+  user-select: crosshair;
+}
+
+#scoreTableName {
+  background-color: #0f0f0f;
+  width: 285px;
+  height: 46px;
+  text-align: center;
+  color: #6f6f6f;
+  font-size: 40px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  letter-spacing: 2px;
+  float: right;
+  border-bottom: 5px solid #3f3f3f;
+  border-left: 5px solid #3f3f3f;
+  border-right: 5px solid #3f3f3f;
+  border-radius: 30px;
+  user-select: none;
+}
+
+#menuTable {
+  background-color: #000000;
+  width: 290px;
+  height: 550px;
+  color: #6f6f6f;
+  font-size: 30px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 5px solid #3f3f3f;
+  border-radius: 30px;
+  border-left: 0px;
+  float: left;
+  user-select: none;
+}
+
+#menuTableName {
+  background-color: #0f0f0f;
+  width: 285px;
+  height: 46px;
+  text-align: center;
+  color: #6f6f6f;
+  font-size: 40px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  letter-spacing: 2px;
+  float: left;
+  border-bottom: 5px solid #3f3f3f;
+  border-left: 5px solid #3f3f3f;
+  border-right: 5px solid #3f3f3f;
+  border-radius: 30px;
+  user-select: none;
+}
+
+#underTable {
+  width: 1700px;
+  height: 50px;
+}
+
+#siName {
+  width: 535px;
+  height: 50px;
+  margin-left: 320px;
+  color: #3f3f3f;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  float: left;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+#scoreName {
+  width: 530px;
+  height: 50px;
+  color: #3f3f3f;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Courier New';
+  font-weight: 600;
+  float: left;
+  letter-spacing: 2px;
+  user-select: none;
+}
+
+#up {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 150px;
+}
+
+.score {
+  margin-top: 35px;
+  width: 550px;
+  color: #3f3f3f;
+  text-align: center;
+  float: right;
+  font-size: 100px;
+  font-family: 'Courier New';
+  user-select: none;
+}
